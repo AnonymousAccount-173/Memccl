@@ -1,6 +1,8 @@
 # Memccl
 
 定位内存特征码的工具，原理就是把shellcode分段置0注入到可信进程中给杀毒软件内存扫描，以此缩小特征码范围。
+A tool for locating memory character code by injecting shellcode segments set to 0 into a trusted process and scanning it with antivirus software to narrow down the character range.
+[README-EN](https://github.com/AnonymousAccount-173/Memccl/blob/main/readme-en.md)
 
 ## 依赖
 
